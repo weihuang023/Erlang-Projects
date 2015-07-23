@@ -2,6 +2,8 @@
 ![][logo]
 [logo]:https://github.com/weihuang023/Erlang-Projects/blob/master/ErlangLogo.png 
 [Cheat Sheet](https://github.com/weihuang023/Erlang-Projects/blob/master/CheatSheet.jpg)
+[Concurrency](https://github.com/weihuang023/Erlang-Projects/edit/master/ConcurrentProgramming.md)
+[Distrbution]()
 
 ## tut - [Basic Information about Erlang file](https://github.com/weihuang023/Erlang-Projects/blob/master/tut0.erl)
 * Each file contain an Erlang Module
