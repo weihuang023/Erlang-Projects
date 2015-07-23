@@ -35,7 +35,7 @@
 * delimited by curly brackets
 * Term in Tuple is an element
 * the number of element is the size of tuple
-* First value is an atom  _a tag and this can be used to identify or classify the contents_
+* First value is an atom, _a tag and this can be used to identify or classify the contents_
 
 #### List
 -
