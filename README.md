@@ -1,26 +1,26 @@
 # Erlang - Projects:
 ![][logo]
 [logo]:https://github.com/weihuang023/Erlang-Projects/blob/master/ErlangLogo.png
-## tut
+## tut - _Basic Information about Erlang file_
 * Each file contain an Erlang Module
 * "." is End of the line
 * file name is ".erl"
 * -export contain argument and that is funcation can be use from outside module
 
-## tut1
+## tut1 - _What is in Fucntion?_
 * A Fuction have many arguments. (- export: fac/1 and mult/1)
 
-## tut2
+## tut2 - _What are arguments?_
 * Converting from inch to centimeter or converting from centimeter to inch
 * One arugments can have many fucntion 
 
-## tut3
+## tut3 - _Fucntion and Argument_
 * tut3:convert_length(tut3:convert_length({inch,5})). This is reassurinigly get back to the original value.
 * metric conversion : the arugment to a fucntion can be result of another fucntion
 
 ## Data Types
 -
-* There are two tpe of  numberic literals, integers and floats.
+* There are two types of  numberic literals, integers and floats.
 * number < atom < reference < fun < port < pid < tuple < list < bit string  
 
 #### Atom
