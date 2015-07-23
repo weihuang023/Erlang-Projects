@@ -1,5 +1,6 @@
-# Erlang - Projects : [logo]
-[logo]:
+# Erlang - Projects:
+![][logo]
+[logo]:https://github.com/weihuang023/Erlang-Projects/blob/master/ErlangLogo.png
 ## tut
 * Each file contain an Erlang Module
 * "." is End of the line
