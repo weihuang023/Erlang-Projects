@@ -1,4 +1,5 @@
-# Erlang - Projects
+# Erlang - Projects : [logo]
+[logo]:
 ## tut
 * Each file contain an Erlang Module
 * "." is End of the line
@@ -41,7 +42,7 @@
 -
 * denoted by Square Brackets
 * diff between list and tuple
-  * a tuple can only be user in comparison
-  * a list allow a wider variety of manipulation operation to be performed
+  + a tuple can only be user in comparison
+  + a list allow a wider variety of manipulation operation to be performed
 
 
