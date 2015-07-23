@@ -1,6 +1,8 @@
 # Erlang - Projects:
 ![][logo]
-[logo]:https://github.com/weihuang023/Erlang-Projects/blob/master/ErlangLogo.png
+[logo]:https://github.com/weihuang023/Erlang-Projects/blob/master/ErlangLogo.png 
+[Cheat Sheet](https://github.com/weihuang023/Erlang-Projects/blob/master/CheatSheet.jpg)
+
 ## tut - _Basic Information about Erlang file_
 * Each file contain an Erlang Module
 * "." is End of the line
@@ -50,5 +52,13 @@
 -
 * Can be store as a list of the ASC II Character values (int)
 * use $, double quote, single quote to specify character in List of Character
+
+## Write output to a Terminal _io:format_
+* io:format("Display in Terminal~n",[]).
+* io:format("Display the variable word: ~w~n",[Word]).
+* space will show in terminal.
+* ~n new line
+* function itself returns the atom ok if everything goes as planned.
+
 
 
