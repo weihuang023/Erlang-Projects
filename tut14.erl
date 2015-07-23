@@ -6,6 +6,6 @@ say_something(What, Times) ->
   io:format("~p~n", [What]),
   say_something(What, Times - 1).
 start()->
-  spawn(tut14,say_something,[hello,3]),
-  spawn(tut14,say_something,[good,3]),
-  spawn(tut14,say_something,[thank you,3]).
+  spawn(tut14,say_something,[Hello,3]),
+  spawn(tut14,say_something,[Good,3]),
+  spawn(tut14,say_something,[Thank You,3]).
