@@ -30,7 +30,7 @@
 * start with lower case charater or delimit with singlw quotes
 
 #### Tuple 
-
+------
 * Composite date type and store collections of items
 * delimited by curly brackets
 * Term in Tuple is an element
@@ -40,6 +40,8 @@
 #### List
 -----
 * denoted by Square Brackets
-* diff between list and tuple: 
-1. a tuple can only be user in comparison
-2. a list allow a wider variety of manipulation operation to be performed
+* diff between list and tuple
+	* a tuple can only be user in comparison
+	* a list allow a wider variety of manipulation operation to be performed
+
+
