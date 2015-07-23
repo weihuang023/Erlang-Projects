@@ -35,13 +35,13 @@
 * delimited by curly brackets
 * Term in Tuple is an element
 * the number of element is the size of tuple
-* First value is an atom - a tag and this can be used to identify or classify the contents
+* First value is an atom  _a tag and this can be used to identify or classify the contents_
 
 #### List
 -
 * denoted by Square Brackets
 * diff between list and tuple
-	* a tuple can only be user in comparison
-	* a list allow a wider variety of manipulation operation to be performed
+  * a tuple can only be user in comparison
+  * a list allow a wider variety of manipulation operation to be performed
 
 
