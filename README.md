@@ -78,7 +78,8 @@
 
 #### [Find the cities with the maximum and minimum temperatures](https://github.com/weihuang023/Erlang-Projects/blob/master/tut7.erl)
 
-#### [If and Case](https://github.com/weihuang023/Erlang-Projects/blob/master/tut9.erl)
+#### [If and Case Example 1](https://github.com/weihuang023/Erlang-Projects/blob/master/tut9.erl)
+#### [If and Case Example 2](https://github.com/weihuang023/Erlang-Projects/blob/master/tut11.erl)
 
 ```erlang
 if 
@@ -92,3 +93,6 @@ if
     Action 4
 end
 ```
+
+#### [Map and Sort the list Example](https://github.com/weihuang023/Erlang-Projects/blob/master/tut13.erl)
+* anonymous variable "_"
