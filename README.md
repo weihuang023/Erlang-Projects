@@ -20,7 +20,7 @@
 * tut3:convert_length(tut3:convert_length({inch,5})). This is reassurinigly get back to the original value.
 * metric conversion : the arugment to a fucntion can be result of another fucntion
 
-## Data Types - [What are Data Types?]()
+## Data Types - [What are Data Types?](https://github.com/weihuang023/Erlang-Projects/blob/master/DATATYPE.md)
 * There are two types of  numberic literals, integers and floats
 * number < atom < reference < fun < port < pid < tuple < list < bit string
 * Variable is binding a value and mutiple variable are able to assign values simultaneously 
