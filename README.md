@@ -19,12 +19,12 @@
 ## Extra Erlang Basic Programming 
 
 #### Data Types
------
+-
 * There are two tpe of  numberic literals, integers and floats.
 * number < atom < reference < fun < port < pid < tuple < list < bit string  
 
 #### Atom
------
+-
 * Identifying a value 
 * boolean logic 
 * start with lower case charater or delimit with singlw quotes
@@ -38,7 +38,7 @@
 * First value is an atom - a tag and this can be used to identify or classify the contents
 
 #### List
------
+-
 * denoted by Square Brackets
 * diff between list and tuple
 	* a tuple can only be user in comparison
