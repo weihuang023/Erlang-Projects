@@ -18,9 +18,7 @@
 * tut3:convert_length(tut3:convert_length({inch,5})). This is reassurinigly get back to the original value.
 * metric conversion : the arugment to a fucntion can be result of another fucntion
 
-## Extra Erlang Basic Programming 
-
-#### Data Types
+## Data Types
 -
 * There are two tpe of  numberic literals, integers and floats.
 * number < atom < reference < fun < port < pid < tuple < list < bit string  
