@@ -62,4 +62,13 @@
 |bsl|arithmetic bitshift left|integer|
 |bsr|bitshift right|integer|
 
+## Boolean Expressions
+|op|Description|
+|---|---|
+|not|unary logical not|
+|and|logical and|
+|or|logical or|
+|xor|logical xor|
+
+## [Nested Function Large Example](https://github.com/weihuang023/Erlang-Projects/blob/master/tut5.erl) 
 
