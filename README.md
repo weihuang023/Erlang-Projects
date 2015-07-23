@@ -78,15 +78,17 @@
 
 #### [Find the cities with the maximum and minimum temperatures](https://github.com/weihuang023/Erlang-Projects/blob/master/tut7.erl)
 
-#### [if and case](https://github.com/weihuang023/Erlang-Projects/blob/master/tut9.erl)
+#### [If and Case](https://github.com/weihuang023/Erlang-Projects/blob/master/tut9.erl)
 
 ```erlang
 if 
   Condition 1 ->
     Action 1;
-   Condition 1 ->
-    Action 1;
-   Condition 1 ->
-    Action 1;
-     Condition 1 ->
-    Action 1;
+  Condition 2 ->
+    Action 2;
+  Condition 3 ->
+    Action 3;
+  Condition 4 ->
+    Action 4
+end
+```
