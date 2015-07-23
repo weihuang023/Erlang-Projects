@@ -30,7 +30,7 @@
 * start with lower case charater or delimit with singlw quotes
 
 #### Tuple 
-------
+-
 * Composite date type and store collections of items
 * delimited by curly brackets
 * Term in Tuple is an element
