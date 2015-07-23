@@ -25,7 +25,7 @@
 * number < atom < reference < fun < port < pid < tuple < list < bit string
 * Variable is binding a value and mutiple variable are able to assign values simultaneously 
 
-## Write output to a Terminal _io:format_
+## Write output to a Terminal (_io:format_)
 * io:format("Display in Terminal~n",[]).
 * io:format("Display the variable word: ~w~n",[Word]).
 * space will show in terminal.
@@ -70,5 +70,23 @@
 |or|logical or|
 |xor|logical xor|
 
-## [Nested Function Large Example](https://github.com/weihuang023/Erlang-Projects/blob/master/tut5.erl) 
+#### [Nested Function and Argument Example](https://github.com/weihuang023/Erlang-Projects/blob/master/tut5.erl) 
 
+#### [Find the Max Example](https://github.com/weihuang023/Erlang-Projects/blob/master/tut6.erl)
+
+#### [Resvering the order of list Example](https://github.com/weihuang023/Erlang-Projects/blob/master/tut8.erl)
+
+#### [Find the cities with the maximum and minimum temperatures](https://github.com/weihuang023/Erlang-Projects/blob/master/tut7.erl)
+
+#### [if and case](https://github.com/weihuang023/Erlang-Projects/blob/master/tut9.erl)
+
+```erlang
+if 
+  Condition 1 ->
+    Action 1;
+   Condition 1 ->
+    Action 1;
+   Condition 1 ->
+    Action 1;
+     Condition 1 ->
+    Action 1;
