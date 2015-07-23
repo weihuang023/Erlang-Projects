@@ -8,4 +8,4 @@ say_something(What, Times) ->
 start()->
   spawn(tut14,say_something,[hello,3]),
   spawn(tut14,say_something,[good,3]),
-  spawn(tut14,say_something,[thankyou,3]).
+  spawn(tut14,say_something,[thank you,3]).
