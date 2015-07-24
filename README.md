@@ -5,7 +5,7 @@
 
 [Concurrent Programming](https://github.com/weihuang023/Erlang-Projects/edit/master/ConcurrentProgramming.md) 
 
-[Distributed Programming]()
+[Distributed Programming](https://github.com/weihuang023/Erlang-Projects/blob/master/DistributedProgramming.md)
 
 ## tut - [Basic Information about Erlang file](https://github.com/weihuang023/Erlang-Projects/blob/master/tut0.erl)
 * Each file contain an Erlang Module
