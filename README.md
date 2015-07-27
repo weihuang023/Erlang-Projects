@@ -3,7 +3,7 @@
 [logo]:https://github.com/weihuang023/Erlang-Projects/blob/master/ErlangLogo.png 
 [Cheat Sheet](https://github.com/weihuang023/Erlang-Projects/blob/master/CheatSheet.jpg) 
 
-[Concurrent Programming](https://github.com/weihuang023/Erlang-Projects/edit/master/ConcurrentProgramming.md) 
+[Concurrent Programming](https://github.com/weihuang023/Erlang-Projects/blob/master/ConcurrentProgramming.md) 
 
 [Distributed Programming](https://github.com/weihuang023/Erlang-Projects/blob/master/DistributedProgramming.md)
 
