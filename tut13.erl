@@ -8,6 +8,6 @@ convert_to_c({Name, {c, Temp}}) ->
     {Name, {c, Temp}}.
 
 convert_list_to_c(List) ->
-    New_list = lists:map(fun convert_to_c/1, List),
-    lists:sort(fun({_, {c, Temp1}}, {_, {c, Temp2}}) ->
+    New_list = lists:map(fun convert_to_c/1, List), % map the function and lists of element together
+    lists:sort(fun({_, {c, Temp1}}, {_, {c, Temp2}}) -> % create the new list has condition with temp1 and temp2
                        Temp1 < Temp2 end, New_list).
