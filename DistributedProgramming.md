@@ -1,8 +1,14 @@
 # Distributed Programming
 
 ## Setting Up an Erlang Cluster
+* Host
+* A branch of erlang node together on a singler computer by hostname
+* Erlang VM setup a connection with another erlang node
+* Own node name by calling the BIF node() 
 
 ## Cookies
+* add a token value call cookie and unique value that must be shared between nodes to allow them to connect together.
+* security featureand and divide cluster of nodes as authentication mechanism
 
 ## Remote Shells
 |Command|Description|
