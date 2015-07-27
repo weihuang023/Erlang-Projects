@@ -1,15 +1,15 @@
 -module(tut7).
 -export([format_temps/1]).
 
-format_temps(List_of_cities) ->
+format_temps(List_of_cities) ->         % create a list 
     Converted_List = convert_list_to_c(List_of_cities), % covert list to celsius if need 
-    print_temp(Converted_List).
+    print_temp(Converted_List).         % print a list which has converted tenp ti celsius
 
-convert_list_to_c([{Name, {f, F}} | Rest]) ->
-    Converted_City = {Name, {c, (F -32)* 5 / 9}},
+convert_list_to_c([{Name, {f, F}} | Rest]) -> % loop that covert list to c when condition {name, {f,F}}
+    Converted_City = {Name, {c, (F -32)* 5 / 9}}, % detail calculation
     [Converted_City | convert_list_to_c(Rest)];
 
-convert_list_to_c([City | Rest]) ->   
+convert_list_to_c([City | Rest]) ->   % gerenal about element converted
     [City | convert_list_to_c(Rest)];
 
 convert_list_to_c([]) ->
@@ -24,7 +24,7 @@ print_temp([]) ->
 % Find Mini and Max
 
 find_max_and_min([City | Rest]) ->
-    find_max_and_min(Rest, City, City).
+    find_max_and_min(Rest, City, City). % rest in list, mini, and max 
 
 find_max_and_min([{Name, {c, Temp}} | Rest],
          {Max_Name, {c, Max_Temp}},
