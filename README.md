@@ -14,7 +14,7 @@
 * -export contain argument and that is funcation can be use from outside module
 
 ## tut1 - [What is in Fucntion?](https://github.com/weihuang023/Erlang-Projects/blob/master/tut1.erl)
-* A Fuction have many arguments. (- export: fac/1 and mult/1)
+* A Fuction can have many arguments. (Example: - export: fac/1 and mult/1)
 
 ## tut2 - [What are arguments?](https://github.com/weihuang023/Erlang-Projects/blob/master/tut2.erl)
 * Converting from inch to centimeter or converting from centimeter to inch
