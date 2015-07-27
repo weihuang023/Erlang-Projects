@@ -7,20 +7,20 @@ month_length(Year, Month) ->
     %% Years divisible by 4 are leap (except the 100 rule above)
     Leap = if
         trunc(Year / 400) * 400 == Year ->
-            leap;
+            leap;  % return value
         trunc(Year / 100) * 100 == Year ->
-            not_leap;
+            not_leap; % return value
         trunc(Year / 4) * 4 == Year ->
-            leap;
+            leap; % return value
         true ->
-            not_leap
+            not_leap % return value
     end,
     case Month of
         sep -> 30;
         apr -> 30;
         jun -> 30;
         nov -> 30;
-        feb when Leap == leap -> 29;
+        feb when Leap == leap -> 29; % when return value is leap
         feb -> 28;
         jan -> 31;
         mar -> 31;
