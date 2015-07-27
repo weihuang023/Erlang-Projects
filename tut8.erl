@@ -4,7 +4,7 @@
 
 reverse(List) ->       % reverse([1,2,3])
     reverse(List, []). % reverse([1,2,3],[])
-
+                                           % Rest is remining on the List
 reverse([Head | Rest], Reversed_List) ->   % reverse([1|2,3],[])
     reverse(Rest, [Head | Reversed_List]); % reverse([2,3],[1|[]])
                                            % reverse([2|3],[1])
